@@ -24,6 +24,11 @@ const connect = function() {
 
   conn.write('Name: JIM');
 
+  conn.write('Move: up');
+
+  
+
+
   return conn;
 };
 
